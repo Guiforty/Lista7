@@ -9,6 +9,13 @@
     margin: 0px;
     font-family: wax ;
 }
+.logo{
+    text-align: start;
+    width: 10px;
+    height: 10px;
+
+
+}
 
 
 
@@ -30,6 +37,7 @@ header{
     gap: 20px; /*para espaçar os elementos de forma uniforme*/
     justify-content: center; /*para centralizar os itens na página.*/
     
+    
 
 }
 
@@ -42,18 +50,24 @@ header{
 .card{
     border: 2px solid;
     width: 350px;
-    height: 550px;
+    height: 580px;
     text-align: center;
     justify-items: center;
-    border-radius: 60px;
+    border-radius: 40px;
     margin: 100px;
     box-shadow: 5px 3px 10px 1px purple;
     border-color: black;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.678),rgba(212, 0, 255, 0.226),#53008b);
 }
 
 .card:hover{
     transition: 1.5s;
     transform: scale(1.1);
+}
+
+.card button:hover{
+    
+
 }
 
 h1{
@@ -68,10 +82,8 @@ h1{
     display: flex;
  }
 .item{ 
-    font-size: 90px;
-    
-   
-    
+    font-size: 90px;        
+ 
  }
 .item1:hover{
     transition: 1,3s;
@@ -130,6 +142,4 @@ span{
     transition: 1.3s;
     transform: scale(1.1);
     color: rgb(255, 0, 179);
-
-
  }
