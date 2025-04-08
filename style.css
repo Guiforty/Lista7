@@ -36,7 +36,7 @@ header{
     flex-wrap: wrap; /*para ajustar os produtos automaticamente na tela.*/
     gap: 20px; /*para espaçar os elementos de forma uniforme*/
     justify-content: center; /*para centralizar os itens na página.*/
-    
+    background: linear-gradient(to top, rgba(91, 0, 128, 0.404),rgb(252, 248, 248),#3b016b77);
     
 
 }
